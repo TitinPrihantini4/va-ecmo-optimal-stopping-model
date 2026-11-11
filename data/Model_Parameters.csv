@@ -1,0 +1,55 @@
+parameter,value,status,provenance
+LVOT VTI conventional readiness anchor,9.5-10 cm,Literature anchor,Source 12
+Minimal-flow assessment,<1.5 to 2.0 L/min,Literature anchor,Source 1
+Flow-study reduction,30-50% for 15 min,Literature anchor,Source 5
+Observed VTI separation,15 vs 11 cm,Literature anchor,Source 7
+recovery0,0.82,Structural,NC
+recovery_floor,0.34,Structural,NC
+k_recovery_decay,0.18,Structural,NC
+k_reserve_gain,0.48,Structural,NC
+k_debt_inhibit,0.22,Structural,NC
+k_depend_inhibit,0.18,Structural,NC
+k_debt_gen,0.18,Structural,NC
+k_debt_clear,0.42,Structural,NC
+k_depend_gain,0.12,Structural,NC
+k_depend_release,0.32,Structural,NC
+k_stability_gain,0.34,Structural,NC
+k_stability_loss_debt,0.16,Structural,NC
+k_stability_loss_depend,0.12,Structural,NC
+vti_intercept,7.7,Observation / mapping,NC
+vti_R,5.0,Observation / mapping,NC
+vti_H,0.8,Observation / mapping,NC
+vti_A,1.2,Observation / mapping,NC
+p_intercept,-4.4,Observation / mapping,NC
+p_VTI,0.48,Observation / mapping,NC
+p_R,1.6,Observation / mapping,NC
+p_H,1.0,Observation / mapping,NC
+p_D,0.8,Observation / mapping,NC
+p_A,0.6,Observation / mapping,NC
+margin_R,0.75,Observation / mapping,NC
+margin_H,0.35,Observation / mapping,NC
+margin_D,0.45,Observation / mapping,NC
+margin_A,0.35,Observation / mapping,NC
+margin_VTI,0.07,Observation / mapping,NC
+margin0,0.28,Observation / mapping,NC
+u_success,2.6,Decision utility,NC
+u_fail,1.8,Decision utility,NC
+u_D,0.5,Decision utility,NC
+u_A,0.35,Decision utility,NC
+u_H,0.45,Decision utility,NC
+liberation_cost,0.18,Decision utility,NC
+continuation_base,0.14,Decision utility,NC
+continuation_D,0.055,Decision utility,NC
+continuation_A,0.035,Decision utility,NC
+discount,0.015,Decision utility,NC
+lambda0,0.035,Structural,NC
+hazard_D,1.15,Structural,NC
+hazard_A,0.8,Structural,NC
+hazard_R,1.2,Structural,NC
+hazard_H,0.85,Structural,NC
+q01,0.32,Markov intensity,NC
+q12,0.38,Markov intensity,NC
+q23,0.22,Markov intensity,NC
+q10,0.09,Markov intensity,NC
+q21,0.11,Markov intensity,NC
+q32,0.05,Markov intensity,NC

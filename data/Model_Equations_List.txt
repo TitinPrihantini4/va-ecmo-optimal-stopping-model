@@ -1,0 +1,60 @@
+Recovery-drive decay
+G(t) = G_floor + (G_0 − G_floor) exp(−k_G t)
+
+Latent physiological reserve
+dR/dt = k_R G(t)(1−R) − k_DR D R − k_AR A R
+
+Oxygen-debt dynamics
+dD/dt = k_D(1−R)(1−D) − k_clear R D
+
+ECMO support-dependence dynamics
+dA/dt = k_A S(t)(1−R)(1−A) − k_release R A
+
+Hemodynamic-stability dynamics
+dH/dt = k_H R(1−H) − k_HD D H − k_HA A H
+
+LVOT-VTI observation equation
+Y_VTI(t) = β_0 + β_R R + β_H H − β_A A + ε_VTI
+
+Nonlinear liberation-feasibility mapping
+π_L(t) = logistic(α_0 + α_V Y_VTI + α_R R + α_H H − α_D D − α_A A)
+
+Failure-hazard propagation
+λ_F(t) = λ_0 exp(γ_D D + γ_A A − γ_R R − γ_H H)
+
+Dynamic liberation margin
+Ψ(t) = w_R R + w_H H − w_D D − w_A A + w_V(Y_VTI−9.5) − b_0
+
+Immediate-liberation utility
+U_L(t) = a_S π_L − a_F(1−π_L) − a_D D − a_A A + a_H H − c_L
+
+Continuation value
+U_C(t) = exp(−ρΔt)V(t+Δt) − [c_0 + c_D D + c_A A + c_λ λ_F]Δt
+
+Bellman recursion
+V(t) = max{U_L(t), U_C(t)}
+
+Optimal stopping time
+τ* = inf{t : U_L(t) ≥ U_C(t), Ψ(t) ≥ 0, Y_VTI(t) ≥ 9.5, H(t) ≥ 0.55}
+
+Latent clinical regime
+Z(t) ∈ {Support-dependent, Recovering, Liberation-ready, Relapse-risk}
+
+Continuous-time regime transition
+Pr[Z(t+Δt)=j | Z(t)=i] = [exp{Q(X_t)Δt}]_ij
+
+Jacobian matrix
+J_ij(X*) = ∂f_i/∂X_j |_(X=X*)
+
+Local stability criterion
+max Re{λ(J(X*))} < 0
+
+Partial rank correlation
+PRCC(θ_j, Ψ_T) = Corr(rank-residual θ_j, rank-residual Ψ_T)
+
+Akaike information criterion
+AIC = 2k − 2 log(L)
+
+Bayesian information criterion
+BIC = k log(n) − 2 log(L)
+
