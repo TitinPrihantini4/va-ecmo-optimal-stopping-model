@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > **Full manuscript currently retained by the author.** The manuscript has **not yet been formally published**. The author is retaining the complete manuscript while the work remains open to further refinement, additional analyses, and potential collaborations. This public document provides a scientific overview only, it is **not the full manuscript or a peer-reviewed publication**. Availability of the complete manuscript may be reconsidered by the author following publication or other study arrangements. For collaboration or discussion could contact formally the author by this Github.
 
-**Study title:** Optimal Stopping Model for VA-ECMO Liberation Based on LVOT VTI Derived Latent Physiological Reserve Under Recovery Uncertainty  
+**Study title:** Optimal Stopping Model for VA-ECMO Liberation Based on LVOT VTI Derived Latent Physiological Reserve Across Competing Hemodynamic Regimes  
 **Author:** Prihantini  
 **Research status:** Unpublished, literature-parameterized computational proof-of-concept, no patient level calibration or external validation.
 
