@@ -1,6 +1,6 @@
 # VA-ECMO Optimal Stopping Model
 
-## Optimal Stopping Model for VA-ECMO Liberation Based on LVOT VTI Derived Latent Physiological Reserve Under Recovery Uncertainty
+## Optimal Stopping Model for VA-ECMO Liberation Based on LVOT VTI Derived Latent Physiological Reserve Across Competing Hemodynamic Regimes
 
 **Literature-parameterized computational proof-of-concept, reproducible simulation, uncertainty analysis, and mathematical decision modeling**
 
