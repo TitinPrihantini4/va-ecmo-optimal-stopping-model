@@ -6,7 +6,7 @@
 
 ![Status](https://img.shields.io/badge/status-theoretical%20proof--of--concept-blue) ![Python](https://img.shields.io/badge/Python-reproducible%20simulation-3776AB) ![Validation](https://img.shields.io/badge/clinical%20validation-not%20performed-lightgrey)
 
-> **Manuscript availability.** The full manuscript is currently retained by the author because this study has not been formally published and may undergo further revision or collaboration. This public repository provides the computational materials (such as input parameter and outputs) and a manuscript outline. It should not be represented as a published or peer reviewed clinical study.
+> **Manuscript availability.** The full manuscript is currently retained by the author because this study has not been formally published and may undergo further revision or collaboration. This public repository provides the computational materials (such as input parameter and outputs) and a manuscript outline. It should not be represented as a published or peer reviewed clinical study. For any collaboration, discussion or suggestion, kindly contact the author by Github.
 
 ---
 
