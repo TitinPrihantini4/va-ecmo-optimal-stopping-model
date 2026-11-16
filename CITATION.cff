@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: >-
+  If you use this repository's mathematical model, simulation code, or generated
+  results, please cite this unpublished research project. The complete
+  manuscript is currently retained by the author and has not been formally
+  published.
+type: software
+title: >-
+  Optimal Stopping Model for VA-ECMO Liberation Based on LVOT VTI Derived
+  Latent Physiological Reserve Under Recovery Uncertainty
+authors:
+  - name: Prihantini
+abstract: >-
+  Literature-parameterized computational proof-of-concept for model-defined
+  VA-ECMO liberation timing. The project combines four nonlinear ordinary
+  differential equations, simulated LVOT VTI, a finite-horizon Bellman stopping
+  rule, a descriptive four-state continuous-time Markov layer, sensitivity and
+  uncertainty analyses, and internal synthetic diagnostics. No patient-level
+  calibration or external clinical validation was performed.
+keywords:
+  - VA-ECMO
+  - LVOT VTI
+  - optimal stopping
+  - nonlinear ordinary differential equations
+  - latent physiological reserve
+  - uncertainty quantification
+  - mathematical modeling
